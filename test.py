@@ -21,7 +21,7 @@ lcd = LCD(22,21,17,23,25,24)
 #lcd.send_string('Xander Newlun')
 lcd.set_cursor(0,2)
 for x in range(1,100):
-    lcd.setstring(x)
+    lcd.send_string(x)
     sleep(.25)
 
 while run:
