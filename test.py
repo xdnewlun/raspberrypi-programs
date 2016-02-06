@@ -15,7 +15,7 @@ print("Ctrl+C to exit")
 lcd = LCD(22,21,17,23,25,24)
 
 # change these line to test
-lcd.set_cursor(1,3) # line,column
+lcd.set_cursor(2,1) # line,column
 lcd.send_string('Hello world')
 
 while run:
