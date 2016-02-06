@@ -22,7 +22,7 @@ lcd.set_cursor(0,2)
 lcd.send_string('Deacon is')
 sleep(1)
 lcd.set_cursor(1,2)
-lcd.send_string('BAE')
+lcd.send_string('Cool')
 
 while run:
     sleep(1)
