@@ -17,10 +17,12 @@ lcd = LCD(22,21,17,23,25,24)
 # change these line to test
 # 1st line = 0
 # 2nd line = 1
-lcd.set_cursor(0,2) # line,column
-lcd.send_string('Xander Newlun')
-lcd.set_cursor(1,3)
-lcd.send_string('Hello World')
+#lcd.set_cursor(0,2) # line,column
+#lcd.send_string('Xander Newlun')
+lcd.set_cursor(0,2)
+for x in range(1,100):
+    lcd.setstring(x)
+    sleep(.25)
 
 while run:
     sleep(1)
