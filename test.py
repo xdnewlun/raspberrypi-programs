@@ -1,7 +1,6 @@
 import signal as sig
 from time import  sleep
 from lcd import LCD
-
 run = True
 
 def on_exit(a,b):

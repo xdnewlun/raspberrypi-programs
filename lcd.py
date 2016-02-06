@@ -4,6 +4,7 @@
 import RPi.GPIO as gp
 from time import sleep
 
+gp.setwarnings(False)
 class LCD():
    # class to control a Hitachi type LCD display
    # It should work for 16 or 20 character by 2 or 4 line displays
