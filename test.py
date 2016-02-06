@@ -19,11 +19,7 @@ lcd = LCD(22,21,17,23,25,24)
 #lcd.set_cursor(0,2) # line,column
 #lcd.send_string('Xander Newlun')
 lcd.set_cursor(0,2)
-lcd.send_string('Deacon is')
-sleep(1)
-lcd.set_cursor(1,2)
-lcd.send_string('Cool')
-
+lcd.send_string('Hello World')
 while run:
     sleep(1)
     
